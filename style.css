@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 2rem;
+}
+
+.counter {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 700px;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.numberCount p {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #dddddd;
+}
